@@ -1,3 +1,4 @@
+# _*_ coding:utf-8 _*_
 #导包
 import urllib.request
 #定义URL，情求的页面的URL,数据类型为String

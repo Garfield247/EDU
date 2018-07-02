@@ -1,3 +1,4 @@
+# _*_ coding:utf-8 _*_
 #导包
 import urllib.request
 # 定义URL，情求的页面的URL,数据类型为String
@@ -14,6 +15,8 @@ response = urllib.request.urlopen(request)
 print(response)
 #响应二进制数据
 print(response.read())
+#将响应的二进制数据转换为字符串
+print(response.read().decode('utf-8'))
 #相应的状态码
 print(response.getcode())
 #响应的头信息

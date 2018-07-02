@@ -1,3 +1,4 @@
+# _*_ coding:utf-8 _*_
 import urllib.parse as up
 
 url = 'http://image.baidu.com/search/index?tn=baiduimage&ps=1&ct=201326592&lm=-1&cl=2&nc=1&ie=utf-8&word=%E9%A3%8E%E6%99%AF'
