@@ -3,10 +3,10 @@ from datetime import datetime
 import threading
 from utils.rw_redis import RW_redis
 from utils.transfer import Transfer
-from utils.process_data import Pretreatment
+from utils.process_data import Process_data
 
 tra = Transfer()
-pre = Pretreatment()
+pre = Process_data()
 
 
 class myThread(threading.Thread):

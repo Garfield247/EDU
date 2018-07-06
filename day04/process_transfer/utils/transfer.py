@@ -1,7 +1,7 @@
 import os
 import socket
 from datetime import datetime
-from utils.config import FLUME_HOST,FLUME_PORT,RETRY_NUM
+from utils.config import FLUME_HOST,FLUME_PORT
 
 class Transfer(object):
     def __init__(self):

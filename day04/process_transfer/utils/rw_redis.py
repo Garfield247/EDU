@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 import redis
 import json
-from random import choice
-
 from process_transfer.utils.config import REDIS_HOST, REDIS_PORT, REDIS_KEY_DATA
 
 
@@ -26,7 +24,7 @@ class RW_redis(object):
         json_obj = self.redis_cli.lpop(self.key)
         if json_obj:
             data = json.loads(json_obj)
-            print(data)
+            # print(data)
             return data
         else:
             return None
